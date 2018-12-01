@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<BorderPane id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <bottom>
+    <AnchorPane id="footerPaneId" prefHeight="32.0" prefWidth="600.0" styleClass="">
+      <children>
+        <Label layoutX="422.0" layoutY="6.0" prefWidth="133.0" text="Copyright DDLAB INC" />
+      </children>
+    </AnchorPane>
+  </bottom>
+  <left>
+    <AnchorPane id="leftAnchorPaneId" prefHeight="344.0" prefWidth="147.0">
+      <children>
+        <Button fx:id="btn1Id" layoutX="18.0" layoutY="14.0" mnemonicParsing="false" text="Button 1" />
+        <Button fx:id="btn2Id" layoutX="18.0" layoutY="57.0" mnemonicParsing="false" text="Button 2" />
+      </children>
+    </AnchorPane>
+  </left>
+  <top>
+    <MenuBar id="menuBarId">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Close" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Delete" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+  </top>
+</BorderPane>
